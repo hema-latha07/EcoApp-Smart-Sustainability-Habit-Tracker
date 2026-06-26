@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#F0F9F4"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Your Profile"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2D5A27"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Name"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etEditName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter your full name"
+        android:paddingLeft="15dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/gradient_green_light"
+        android:textColor="#1B3A1E"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnSaveName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Save Changes"
+        android:backgroundTint="#2D5A27"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCancelEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="20dp"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+</LinearLayout>

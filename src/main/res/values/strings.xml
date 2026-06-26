@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Eco App</string>
+    <string name="welcome_message">Welcome, Eco-Hero!</string>
+</resources>

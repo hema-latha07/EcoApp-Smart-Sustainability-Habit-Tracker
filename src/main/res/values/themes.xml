@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.EcoApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+
+        <item name="android:statusBarColor">#E8F5E9</item>
+    </style>
+
+    <style name="Theme.EcoApp" parent="Base.Theme.EcoApp" />
+</resources>
