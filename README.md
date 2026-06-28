@@ -1,4 +1,5 @@
 🌿 EcoApp - Smart Sustainability & Habit Tracker
+
 EcoApp is an interactive, gamified Android application designed to help users build eco-friendly habits and live a more sustainable lifestyle. Built natively for Android using Java and XML, the app challenges users to log daily green tasks, tracks their long-term environmental impact, and provides curated knowledge to foster eco-conscious decisions.
 
 🚀 Features
